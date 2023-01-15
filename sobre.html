@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Paradise - Sobre</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="Logo_Q_DP_2.0.png" type="image/x-icon"/>
+  <script type="text/javascript">
+	function abrir1(){
+		document.getElementById('livro_1').style.display = 'block';
+	}
+	function fechar1(){
+		document.getElementById('livro_1').style.display =  'none';
+	}
+	function abrirB(){
+		document.getElementById('body').style.display = 'block';
+	}
+	function fecharB(){
+		document.getElementById('body').style.display =  'none';
+	}
+  </script>
+</head>
+
+<body>
+<div id="livro_1" class="livro_1">
+	<div id="x" class="x" align="left">
+	  <a href="javascript: fechar1() ; javascript: abrirB() ;" >x</a>
+	  
+	</div>
+  </div>
+
+  <header id="header">
+	 <a id="logo" href="index.html">
+	 <table border="0">
+  		<tbody>
+    		<tr>
+      			<td><img src="Logo_Q_DP_2.0.png" width="100" height="100" alt=""/></td>
+      			<td>Dark <br>Paradise</td>
+    		</tr>
+  		</tbody>
+	</table>
+	</a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+		<li><a href="livros.html">Livros</a></li>
+        <li><a href="coleções.html">Coleções</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script src="script.js"></script>
+  
+<div id="body" class="body" nav="body" align="center">
+  <h1>Sobre</h1>
+</div>
+</body>
+    <div id="container"></div>
+</html>
